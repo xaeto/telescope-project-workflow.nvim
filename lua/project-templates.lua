@@ -1,8 +1,10 @@
-local plenary = require "plenary"
 local utils = require "telescope._extensions.template_actions.utils"
 
 local dirs = {
   ["dotnet6"] = "dotnet",
+  ["Angular"] = "angular",
+  ["Golang"] = "golang",
+  ["git-cli"] = "git-cli",
 }
 
 local setup = function()
